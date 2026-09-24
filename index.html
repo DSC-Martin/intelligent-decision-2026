@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>決策智慧2026</title>
+    <meta name="description" content="電通《決策智慧》年度專刊的互動版本：22 篇文章，22 場卡牌對局。" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!-- 全域打字機字體（英文數字用），見 src/main.ts 的 GAME_FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+    <!-- 分享到通訊軟體/社群時的預覽文字 -->
+    <meta property="og:title" content="決策智慧2026" />
+    <meta property="og:description" content="電通《決策智慧》年度專刊的互動版本：22 篇文章，22 場卡牌對局。" />
+    <style>
+      /* 縮放與置中「只」由 Phaser 的 Scale Manager（FIT + CENTER_BOTH）處理，這裡不要再寫
+         任何會影響 canvas 尺寸/位置的 CSS。#app 刻意保持成單純的區塊元素，不用 flex——
+         之前 flex 置中和 Phaser 的 CENTER_BOTH 同時存在，兩套機制互相打架，canvas 被擠到貼左。
+         一件事只留一個負責人。 */
+      html, body { margin: 0; padding: 0; background: #181b24; overflow: hidden; }
+      #app { width: 100vw; height: 100vh; }
+    </style>
+    <script type="module" crossorigin src="./assets/index-BAZnYnqJ.js"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
